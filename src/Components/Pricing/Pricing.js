@@ -4,21 +4,24 @@ import Option from './Option/Option';
 
 const Pricing = () => {
     const PricingOption=[
-        {id:1, name:"Free", Price:0, feature: [
+        {id:1, name:"Free", Price:0, features: [
+            {key:1},
             'Awsome feature',
             'Pro feature',
             'Hudai feature',
             'Never use feature',
             'Extra useable feature'
         ] },
-        {id:2, name:"Medium", Price:9.99 ,feature: [
+        {id:2, name:"Medium", Price:9.99 ,features: [
+            {key:2},
             'Awsome feature',
             'Pro feature',
             'Hudai feature',
             'Never use feature',
             'Extra useable feature'
         ]},
-        {id:3, name:"Premium", Price:19.99 , feature: [
+        {id:3, name:"Premium", Price:19.99 , features: [
+            {key:3},
             'Awsome feature',
             'Pro feature',
             'Hudai feature',
